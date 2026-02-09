@@ -3975,7 +3975,7 @@ Minor Improvements:
 * docker-env: restart dockerd inside minikube on failure [#8239](https://github.com/kubernetes/minikube/pull/8239)
 * wait for kubernetes components on soft start [#8199](https://github.com/kubernetes/minikube/pull/8199)
 * improve minikube status display for one node [#8238](https://github.com/kubernetes/minikube/pull/8238)
-* improve solution message for wrong kuberentes-version format [#8118](https://github.com/kubernetes/minikube/pull/8118)
+* improve solution message for wrong kubernetes-version format [#8118](https://github.com/kubernetes/minikube/pull/8118)
 
 Bug fixes:
 
@@ -4269,7 +4269,7 @@ New features & improvements
 
 Bug Fixes
 
-* Re-initalize failed Kubernetes clusters [#7234](https://github.com/kubernetes/minikube/pull/7234)
+* Re-initialize failed Kubernetes clusters [#7234](https://github.com/kubernetes/minikube/pull/7234)
 * do not override hostname if extraConfig is specified [#7238](https://github.com/kubernetes/minikube/pull/7238)
 * Enable HW_RANDOM_VIRTIO to fix sshd startup delays [#7208](https://github.com/kubernetes/minikube/pull/7208)
 * hyperv Delete: call StopHost before removing VM [#7160](https://github.com/kubernetes/minikube/pull/7160)

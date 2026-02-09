@@ -288,7 +288,7 @@ func verifyKubeletFlagsOutput(t *testing.T, k8sVersion, kubeletPlugin, out strin
 			t.Errorf("expected no network plug-in, got %s", out)
 		}
 		if !strings.Contains(out, "--network-plugin=cni") && ContainerRuntime() != "docker" {
-			t.Errorf("expected cni network plugin with conatinerd/crio, got %s", out)
+			t.Errorf("expected cni network plugin with containerd/crio, got %s", out)
 		}
 	} else if !strings.Contains(out, fmt.Sprintf("--network-plugin=%s", kubeletPlugin)) {
 		t.Errorf("expected --network-plugin=%s, got %s", kubeletPlugin, out)
